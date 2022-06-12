@@ -20,7 +20,7 @@ class Agent(Player):
             # print(state, action)
             return action
         else:
-            with open(f'gym_splendorm/envs/agents/agent_Ann/exam_{self.name}.json', 'w') as f:
+            with open(f'gym_splendorm/envs/agents/agent_Ann/Data/exam_{self.name}.json', 'w') as f:
                 f.write(
                     '[' + 
                     ',\n'.join(json.dumps(ii) for ii in self.history)
