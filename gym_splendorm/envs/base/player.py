@@ -467,7 +467,7 @@ class Player:
         # 0: thẻ infinity
         # 99: thẻ avenger
 
-        for card_id in (dict_input['Board'].normal_cards[3] + dict_input['Board'].normal_cards[4] + dict_input['Board'].normal_cards[5]):
+        for card_id in (dict_input['Board'].normal_cards[3] + dict_input['Board'].normal_cards[4] + dict_input['Board'].normal_cards[5] + dict_input['Board'].noble_cards):
             cards[card_id] = -1
 
         for card_id in self.opened_cards:
